@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <p class="heading">Student Registration Form</p>
+    <div class="main">
+        <div class="row1">
+            <div>
+                <p>Select City</p>
+                <input type="text" id="city">
+            </div>
+            <div>
+                <p>Select course or event</p>
+                <input type="text" id="course">
+            </div>
+        </div>
+        <div class="row1">
+            <div>
+                <p>Full Name</p>
+                <input type="text" id="name">
+            </div>
+            <div>
+                <p>Father Name</p>
+                <input type="text" id="fname">
+            </div>
+        </div>
+        <div class="row1">
+            <div>
+                <p>Email</p>
+                <input type="text" id="email">
+            </div>
+            <div>
+                <p>Phone</p>
+                <input type="number" id="phone">
+            </div>
+        </div>
+        <div class="row1">
+            <div>
+                <p>CNIC</p>
+                <input type="text" id="cnic">
+            </div>
+            <div>
+                <p>Father's CNIC</p>
+                <input type="text" id="fcnic">
+            </div>
+        </div>
+        <div class="row1">
+            <div>
+                <p>Date of Birth </p>
+                <input type="text" id="dob">
+            </div>
+            <div>
+                 <p>Gender</p>
+                <input type="text" id="gender">
+                <!-- <select name="" id="">
+                    <option value="">--Select--</option>
+                    <option value="">Male</option>
+                    <option value="">Female</option>
+                </select> -->
+            </div>
+        </div>
+        <div class="row2">
+            <div>
+                <p>Address</p>
+                <input type="text" id="address">
+            </div>
+            <div>
+                <p>Last Qualification</p>
+                <input type="text" id="qualification">
+            </div>
+            <div>
+                <p>Do you have a Laptop</p>
+                <input type="text" id="laptop">
+            </div>
+        </div>
+        <button onclick="add()">Submit</button>
+        <br>
+        <button onclick="showData()">Show Data</button>
+        
+    </div>
+
+            <div id="displayDataContainer"></div>
+    
+    
+<script type="module" src="app.js"></script>    
+</body>
+</html>
